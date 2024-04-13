@@ -1,20 +1,16 @@
-#barra-navegacion ul{
+.barra-navegacion ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
-  #barra-navegacion ul {
+  .barra-navegacion ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  #barra-navegacion li {
+  .barra-navegacion li {
     margin-right: 10px; /* Espacio entre elementos de la lista */
-  }
-  
-  .barra-navegacion li:last-child {
-    margin-right: 0; /* Elimina el margen del último elemento de la lista */
   }
   
   .barra-navegacion a {
@@ -22,18 +18,11 @@
     font-size: 22px;
   }
   
-  .barra-navegacion ul li:nth-child(1) a {
+  .barra-navegacion ul li a {
     color: #000000;
   }
   
-  .barra-navegacion ul li:nth-child(2) a {
-    color: #000000;
+  .barra-navegacion ul li a:hover {
+    color: blue; /* Cambia el color del texto a azul cuando se pasa el cursor sobre el enlace */
   }
-  
-  .barra-navegacion ul li:nth-child(3) a {
-    color: #000000;
-  }
-  
-  .barra-navegacion li {
-    display: inline-block; /* Colocar los elementos en línea horizontalmente */
-  }
+
