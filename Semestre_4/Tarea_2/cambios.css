@@ -19,7 +19,7 @@
   }
   
   .barra-navegacion ul li a {
-    color: #000000;
+    color: #000000; /* Todo lo que este adentro de ul li a tendra el texto de color negro */
   }
   
   .barra-navegacion ul li a:hover {
